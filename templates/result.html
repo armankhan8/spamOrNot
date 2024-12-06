@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+        }
+        .result {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>The email content:</p>
+    <blockquote>"{{ email }}"</blockquote>
+    <p class="result">This email is <strong>{{ result }}</strong>.</p>
+    <a href="/">Check another email</a>
+</body>
+</html>
